@@ -1,18 +1,28 @@
 /* asterisk wildcard selector to override default styles from browser */
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* general style */
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* generic project styles */
+  color: #663e3e;
 }
 /* Header */
-header{
-    background-color: lightcoral;
+header {
+  background-color: lightcoral;
 }
 /* Main content */
-main{
-    background-color: aquamarine;
+main {
+  background-color: aquamarine;
+  /* make main take up surplus space for footer to be pushed down */
+  flex: 1 0 auto;
 }
 /* Footer */
-footer{
-    background-color: blueviolet;
+footer {
+  background-color: blueviolet;
 }

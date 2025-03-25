@@ -31,6 +31,7 @@ body {
   flex-direction: column;
   /* generic project styles */
   color: #663e3e;
+  font-family:'Lato', sans-serif;
 }
 /* Header */
 header {

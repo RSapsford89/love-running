@@ -93,6 +93,7 @@ main {
   background-color: aquamarine;
   /* make main take up surplus space for footer to be pushed down */
   flex: 1 0 auto;
+  margin-top: 47px;
 }
 /* Footer */
 footer {

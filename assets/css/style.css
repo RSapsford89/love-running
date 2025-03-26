@@ -42,6 +42,9 @@ h3 {
   letter-spacing: 2px;
   color: #252525;
 }
+.hidden-heading{
+  display: none;
+}
 p {
   padding: 0 20px;
 }

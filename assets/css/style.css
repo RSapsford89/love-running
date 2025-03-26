@@ -24,7 +24,8 @@
   margin: 0;
   box-sizing: border-box;
 }
-/* general style */
+
+/* ------------general style----------- */
 body {
   min-height: 100vh;
   display: flex;
@@ -39,7 +40,11 @@ h1, h2, h3{
   letter-spacing: 2px;
   color: #252525;
 }
-/* Header */
+p{
+  padding: 0 20px;  
+}
+
+/* ---------Header-----------*/
 header {
   background-color: #ffffff;
   padding: 0 1rem;
@@ -89,7 +94,7 @@ nav{
 .nav-toggle-label{
   font-size: 2rem;
 }
-/* Main content */
+/*----------------- Main content----------- */
 main {
   /* make main take up surplus space for footer to be pushed down */
   flex: 1 0 auto;
@@ -117,7 +122,19 @@ main {
 #cover-text > h2, #cover-text >h3{
   color: white;
 }
-/* Footer */
+/* reasons to join section */
+#reasons{
+  margin: 20px auto 20px auto;
+}
+#reasons  > h2{
+  font-size: 280%;
+  margin: 20px auto 20px auto;
+  text-align: center;
+}
+#benefits{
+  margin: 20px;
+}
+/* -----------------Footer------------ */
 #social-networks{
   text-align: center;
   padding: 20px 0;

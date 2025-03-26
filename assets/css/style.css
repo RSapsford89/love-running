@@ -90,10 +90,15 @@ nav{
 }
 /* Main content */
 main {
-  background-color: aquamarine;
   /* make main take up surplus space for footer to be pushed down */
   flex: 1 0 auto;
   margin-top: 79px;
+}
+/* hero section styles */
+#hero{
+  height: 600px;
+  width: 100%;
+  background: url("../images/hero-image.webp") no-repeat center center/cover;/*image, no repeat, center horizontal, center vertical/cover section*/
 }
 /* Footer */
 #social-networks{

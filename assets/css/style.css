@@ -162,7 +162,7 @@ main {
   max-width: 300px;
   max-height: 300px;
 }
-/* meet up times section */
+/* --------------------meet up times section--------------- */
 #meetups{
   
 }
@@ -173,7 +173,21 @@ main {
   display: flex;
   flex-wrap: wrap;
 }
-
+#times div{
+ color: #fafafa;
+ background-color: rgba(0, 0, 0, 0.6);
+ padding: 15px;
+ text-align: center;
+ /* will not wrap on <400px and grows to fit screen */
+ flex-basis: 200px;
+ flex-grow: 1;
+ /* create grid of meetup times */
+ border: 2px solid white;
+}
+#times h3{
+  /* override general colour setting */
+  color: #fafafa;
+}
 /* -----------------Footer------------ */
 #social-networks {
   text-align: center;

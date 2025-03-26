@@ -212,6 +212,14 @@ line-height: 1em;
   padding: 5%;
   color: #3a3a3a;
 }
+/* media query large or landscape phones (>576px */
+@media screen and (min-width:576px) {
+  #photos{
+    column-count: 2;
+    column-gap: 0;
+  }
+  
+}
 /* media query for tablet and larger >768px and up */
 @media screen and (min-width: 768px) {
   /* header */
@@ -255,11 +263,17 @@ line-height: 1em;
     text-align: end;
     align-self: flex-end;
   }
+  #photos{
+    column-count: 3;
+  }
 }
 /* media query for laptop size and above >992px */
 @media screen and (min-width: 992px) {
   #menu a:hover {
     border-bottom: 1px solid #3a3a3a;
+  }
+  #photos{
+    column-count: 4;
   }
 }
 /* media query for large format screens >1200px */

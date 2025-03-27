@@ -312,6 +312,24 @@ line-height: 1em;
   #photos{
     column-count: 3;
   }
+  /* sign up page */
+  #signup{
+    background-position: center;
+    position: relative;
+    padding-left: 10%;
+    padding-top: 150px;
+  }
+  #signup-form{
+    max-width: 400px;
+    position: absolute;
+  }
+  .text-input:hover{
+    border-color: #f16c6b;
+  }
+  #signup-form .join-button:hover{
+    background-color: #fafafa;
+    color: #454b1b;
+  }
 }
 /* media query for laptop size and above >992px */
 @media screen and (min-width: 992px) {
